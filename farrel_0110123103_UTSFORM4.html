@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form peserta seminar</title>
+</head>
+<body>
+    <h1 align="center">sistem informasi seminar tugas akhir</h1>
+    <form action="login.php" method="post">
+        <fieldset>
+            <legend>form peserta seminar</legend>
+            <p>
+                <label>NIM</label>
+                <input type="text" name="NIM" placeholder="NIM">
+            </p>
+            <p>
+                <label>NAMA</label>
+                <input type="text" name="NAMA" placeholder="NAMA">
+            </p>
+            <p>
+                <label>PRODI</label>
+                <select name="prodi">
+                    <option value="sistem informasi">sistem informasi</option>
+                    <option value="teknik informatika">teknik informatika</option>
+                    <option value="bisnis digital">bisnis digital</option>
+                </select> 
+            </p>
+            <p>
+                <label>PROGRAM</label>
+                <label><input type="radio" name="program" value="D3">D3</label>
+                <label><input type="radio" name="program" value="S1 reguler">S1 reguler</label>
+                <label><input type="radio" name="program" value="S1 fast trackt">S1 fast trackt</label>
+                <label><input type="radio" name="program" value="S2">S2</label>
+            </p>
+            <p>
+                <input type="submit" name="submit" value="daftar">
+            </p>
+    
+</body>
+</html>
